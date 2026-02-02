@@ -3,7 +3,7 @@ import FormData from 'form-data';
 import axios from 'axios';
 
 const NETLIFY_API = 'https://api.netlify.com/api/v1';
-const NETLIFY_TOKEN = 'nfp_RWzn9WToFeE7LHLuj273sKWjD8Gujp6V21e1'; // Use env var in production
+const NETLIFY_TOKEN = 'nfp_6hiR1UiX9DJdptmpEHN8ns3nFznfxSxt30b2'; // Use env var in production
 
 export async function deployToNetlify(appFolderPath: string, siteName: string): Promise<string> {
     // 1. Create a new site on Netlify
